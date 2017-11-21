@@ -60,7 +60,7 @@ def computeMAE(pred,real):
 
 def computeRMSE(pred,real):
   rmse_mat=np.power(pred-real,2)
-  rmse=rmse_mat.mean()
+  rmse=np.sqrt(rmse_mat.mean())
   return rmse
 
 
