@@ -1,0 +1,2 @@
+model_checkpoint_path: "MCNET.model-2"
+all_model_checkpoint_paths: "MCNET.model-2"

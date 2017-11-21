@@ -1,0 +1,112 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BasicConvLSTMCell	../BasicConvLSTMCell.py	/^class BasicConvLSTMCell(object):$/;"	kind:class	line:6
+BasicConvLSTMCell.py	../BasicConvLSTMCell.py	1;"	kind:file	line:1
+FixedUnPooling	../ops.py	/^def FixedUnPooling(x, shape):$/;"	kind:function	line:206
+LSTMnet.py	../LSTMnet.py	1;"	kind:file	line:1
+MCNET	../mcnet.py	/^class MCNET(object):$/;"	kind:class	line:10
+MaxPooling	../ops.py	/^def MaxPooling(x, shape, stride=None, padding='SAME'):$/;"	kind:function	line:104
+UnPooling2x2ZeroFilled	../ops.py	/^def UnPooling2x2ZeroFilled(x):$/;"	kind:function	line:91
+Up_pooling2d_with_zero_filled	../LSTMnet.py	/^def Up_pooling2d_with_zero_filled(input):$/;"	kind:function	line:91
+__call__	../BasicConvLSTMCell.py	/^  def __call__(self, inputs, state, scope=None, reuse=False):$/;"	kind:member	line:42
+__init__	../BasicConvLSTMCell.py	/^  def __init__(self, shape, filter_size, num_features, forget_bias=1.0,$/;"	kind:member	line:10
+__init__	../mcnet.py	/^  def __init__(self, image_size, batch_size=32, c_dim=3,$/;"	kind:member	line:11
+_conv_linear	../BasicConvLSTMCell.py	/^def _conv_linear(args, filter_size, num_features, bias,$/;"	kind:function	line:67
+a	../test.py	/^    a=tf.Variable(tf.reshape(tf.range(120,dtype=tf.float32),[2,3,4,5]))$/;"	kind:variable	line:72
+args	../test_kth.py	/^  args = parser.parse_args()$/;"	kind:variable	line:183
+args	../test_ucf101.py	/^  args = parser.parse_args()$/;"	kind:variable	line:165
+args	../train_kth.py	/^  args = parser.parse_args()$/;"	kind:variable	line:188
+args	../train_s1m.py	/^  args = parser.parse_args()$/;"	kind:variable	line:177
+args	../train_yanan.py	/^  args = parser.parse_args()$/;"	kind:variable	line:187
+batch_norm	../ops.py	/^def batch_norm(inputs, name, train=True, reuse=False):$/;"	kind:function	line:10
+batch_size	../LSTMnet.py	/^batch_size=4$/;"	kind:variable	line:4
+build_model	../mcnet.py	/^  def build_model(self):$/;"	kind:member	line:32
+c	../test.py	/^    c=max_unpool2d(b,[2,4,5,5],[2,2],[2,2],padding='Valid')$/;"	kind:variable	line:75
+comb_layers	../mcnet.py	/^  def comb_layers(self, h_dyn, h_cont, reuse=False):$/;"	kind:member	line:212
+compute_data_meta	../utils.py	/^def compute_data_meta(data,axis=None):$/;"	kind:function	line:136
+content_enc	../mcnet.py	/^  def content_enc(self, xt, reuse):$/;"	kind:member	line:186
+conv2d	../LSTMnet.py	/^def conv2d(input,num_output,ksize,$/;"	kind:function	line:37
+conv2d	../ops.py	/^def conv2d(input_, output_dim, $/;"	kind:function	line:15
+dec_cnn	../mcnet.py	/^  def dec_cnn(self, h_comb, res_connect, reuse=False):$/;"	kind:member	line:236
+deconv2d	../LSTMnet.py	/^def deconv2d(input,output_shape,ksize,$/;"	kind:function	line:60
+deconv2d	../ops.py	/^def deconv2d(input_, output_shape,$/;"	kind:function	line:30
+discriminator	../mcnet.py	/^  def discriminator(self, image):$/;"	kind:member	line:273
+draw_frame	../utils.py	/^def draw_frame(img, is_input):$/;"	kind:function	line:66
+forward	../LSTMnet.py	/^def forward(input,scope=None):$/;"	kind:function	line:106
+forward	../mcnet.py	/^  def forward(self, diff_in, xt, cell):$/;"	kind:member	line:112
+gdl	../ops.py	/^def gdl(gen_frames, gt_frames, alpha):$/;"	kind:function	line:219
+get_minibatches_idx	../utils.py	/^def get_minibatches_idx(n, minibatch_size, shuffle=False):$/;"	kind:function	line:42
+get_sample_data	../utils.py	/^def get_sample_data(data,day_start_index, K, T):$/;"	kind:function	line:143
+help	../test_kth.py	/^                      help="GPU device id")$/;"	kind:variable	line:181
+help	../test_kth.py	/^                      help="Prefix for log\/snapshot")$/;"	kind:variable	line:173
+help	../test_ucf101.py	/^                      help="GPU device id")$/;"	kind:variable	line:163
+help	../test_ucf101.py	/^                      help="Prefix for log\/snapshot")$/;"	kind:variable	line:157
+help	../train_kth.py	/^                      help="GPU device id")$/;"	kind:variable	line:186
+help	../train_s1m.py	/^                      help="GPU device id")$/;"	kind:variable	line:175
+help	../train_yanan.py	/^                      help="GPU device id")$/;"	kind:variable	line:185
+history_N	../LSTMnet.py	/^history_N=7$/;"	kind:variable	line:9
+image_size	../LSTMnet.py	/^image_size=[35,288]$/;"	kind:variable	line:6
+imsave	../utils.py	/^def imsave(images, size, path):$/;"	kind:function	line:38
+indices	../test.py	/^indices = tf.constant([[4], [3], [3] ,[7]])$/;"	kind:variable	line:67
+initial_state_size	../LSTMnet.py	/^initial_state_size=image_size$/;"	kind:variable	line:7
+inverse_transform	../utils.py	/^def inverse_transform(images):$/;"	kind:function	line:18
+linear	../ops.py	/^def linear(input_, output_size, name, stddev=0.02, bias_start=0.0,$/;"	kind:function	line:252
+load	../mcnet.py	/^  def load(self, sess, checkpoint_dir, model_name=None):$/;"	kind:member	line:295
+load_data_from_days_mat	../utils.py	/^def load_data_from_days_mat(mat_data_path_name,mat_variable_name,get_meta=False):$/;"	kind:function	line:123
+load_kth_data	../utils.py	/^def load_kth_data(f_name, data_path, image_size, K, T): $/;"	kind:function	line:92
+load_s1m_data	../utils.py	/^def load_s1m_data(f_name, data_path, trainlist, K, T):$/;"	kind:function	line:148
+loss	../LSTMnet.py	/^def loss    $/;"	kind:function	line:127
+lrelu	../ops.py	/^def lrelu(x, leak=0.2, name="lrelu"):$/;"	kind:function	line:59
+main	../test_kth.py	/^def main(prefix, image_size, K, T, gpu):$/;"	kind:function	line:24
+main	../test_ucf101.py	/^def main(lr, prefix, K, T, gpu):$/;"	kind:function	line:24
+main	../train_kth.py	/^def main(lr, batch_size, alpha, beta, image_size, K,$/;"	kind:function	line:24
+main	../train_s1m.py	/^def main(lr, batch_size, alpha, beta, K, T, num_iter, gpu):$/;"	kind:function	line:19
+main	../train_yanan.py	/^def main(lr, batch_size, alpha, beta, image_size, K,$/;"	kind:function	line:24
+max_pool2d	../LSTMnet.py	/^def max_pool2d(input,ksize,strides,padding='SAME'):$/;"	kind:function	line:56
+max_pool2d_with_argmax	../ops.py	/^def max_pool2d_with_argmax(x, shape, stride=None, padding='SAME'):$/;"	kind:function	line:124
+max_step	../LSTMnet.py	/^max_step=1000$/;"	kind:variable	line:5
+max_unpool2d	../ops.py	/^def max_unpool2d(input,output_shape,kssize,sstrides,padding='SAME',scope=None):$/;"	kind:function	line:168
+max_unpool2d	../test.py	/^def max_unpool2d(input,output_shape,kssize,sstrides,padding='SAME',scope=None):$/;"	kind:function	line:27
+max_unpool2d_with_argmax	../ops.py	/^def max_unpool2d_with_argmax(input,output_shape,argmax,kssize,sstrides,padding='SAME',scope=None):$/;"	kind:function	line:144
+max_unpool2d_with_argmax	../test.py	/^def max_unpool2d_with_argmax(input,output_shape,argmax,kssize,sstrides,padding='SAME',scope=None):$/;"	kind:function	line:3
+mcnet.py	../mcnet.py	1;"	kind:file	line:1
+merge	../utils.py	/^def merge(images, size):$/;"	kind:function	line:26
+motion_enc	../mcnet.py	/^  def motion_enc(self, diff_in, reuse):$/;"	kind:member	line:167
+ops.py	../ops.py	1;"	kind:file	line:1
+output_size	../BasicConvLSTMCell.py	/^  def output_size(self):$/;"	kind:member	line:39
+parser	../test_kth.py	/^  parser = ArgumentParser()$/;"	kind:variable	line:171
+parser	../test_ucf101.py	/^  parser = ArgumentParser()$/;"	kind:variable	line:153
+parser	../train_kth.py	/^  parser = ArgumentParser()$/;"	kind:variable	line:168
+parser	../train_s1m.py	/^  parser = ArgumentParser()$/;"	kind:variable	line:159
+parser	../train_yanan.py	/^  parser = ArgumentParser()$/;"	kind:variable	line:167
+print_activation_info	../LSTMnet.py	/^def print_activation_info(activation):$/;"	kind:function	line:34
+ref	../test.py	/^ref = tf.Variable([1, 2, 3, 4, 5, 6, 7, 8])$/;"	kind:variable	line:66
+relu	../ops.py	/^def relu(x):$/;"	kind:function	line:66
+residual	../mcnet.py	/^  def residual(self, input_dyn, input_cont, reuse=False):$/;"	kind:member	line:222
+save	../mcnet.py	/^  def save(self, sess, checkpoint_dir, step):$/;"	kind:member	line:285
+save_images	../utils.py	/^def save_images(images, size, image_path):$/;"	kind:function	line:22
+sess	../LSTMnet.py	/^sess=tf.Session()$/;"	kind:variable	line:3
+sess	../test.py	/^    sess=tf.InteractiveSession(config=tf.ConfigProto(allow_soft_placement=True,log_device_placement=False))$/;"	kind:variable	line:74
+shape2d	../ops.py	/^def shape2d(a):$/;"	kind:function	line:74
+shape4d	../ops.py	/^def shape4d(a):$/;"	kind:function	line:86
+state_size	../BasicConvLSTMCell.py	/^  def state_size(self):$/;"	kind:member	line:34
+tanh	../ops.py	/^def tanh(x):$/;"	kind:function	line:70
+test.py	../test.py	1;"	kind:file	line:1
+test_kth.py	../test_kth.py	1;"	kind:file	line:1
+test_ucf101.py	../test_ucf101.py	1;"	kind:file	line:1
+train	../LSTMnet.py	/^def train():$/;"	kind:function	line:131
+train_kth.py	../train_kth.py	1;"	kind:file	line:1
+train_s1m.py	../train_s1m.py	1;"	kind:file	line:1
+train_yanan.py	../train_yanan.py	1;"	kind:file	line:1
+transform	../utils.py	/^def transform(image):$/;"	kind:function	line:14
+u	../test.py	/^    u=sess.run(update)$/;"	kind:variable	line:78
+update	../test.py	/^update = tf.scatter_nd_update(ref, indices, updates)$/;"	kind:variable	line:69
+updates	../test.py	/^updates = tf.constant([9, 10, 11, 12])$/;"	kind:variable	line:68
+utils.py	../utils.py	1;"	kind:file	line:1
+variable_with_decay	../LSTMnet.py	/^def variable_with_decay(name, shape,initializer, $/;"	kind:function	line:11
+variable_with_regularizer	../LSTMnet.py	/^def variable_with_regularizer(name, shape, initializer, $/;"	kind:function	line:24
+x	../LSTMnet.py	/^x=tf.placeholder(tf.float32,shape=[batch_size]+image_size+[3])$/;"	kind:variable	line:8
